@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>현우 & 혜영</title>
+    <title>현우 & 혜영 모바일청첩장</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -25,13 +25,18 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Gugi|Noto+Serif+KR|Stylish|Sunflower:300"
+        rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="font-secondary text-white mb-n2">현우 <span class="text-primary">&</span> 혜영</h1>
+            <h1 class="font-secondary text-white mb-n2">HyunWoo <span class="text-primary">&</span> Hyeyoung</h1>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -39,12 +44,12 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto py-0">
                 <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#invitation" class="nav-item nav-link">Invitation</a>
                 <a href="#story" class="nav-item nav-link">Story</a>
                 <a href="#gallery" class="nav-item nav-link">Gallery</a>
             </div>
             <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                <h1 class="font-secondary text-white mb-n2">현우 <span class="text-primary">&</span> 혜영</h1>
+                <h1 class="font-secondary text-white mb-n2">HyunWoo <span class="text-primary">&</span> Hyeyoung</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
                 <!-- <a href="#family" class="nav-item nav-link">Family</a> -->
@@ -70,10 +75,10 @@
                                 <h3 class="text-uppercase font-weight-normal text-white m-0"
                                     style="letter-spacing: 2px;">저희 결혼합니다!!</h3>
                             </div>
-                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
+                            <!-- <button type="button" class="btn-play mx-auto" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                                 <span></span>
-                            </button>
+                            </button> -->
                         </div>
                     </div>
                 </div>
@@ -86,10 +91,10 @@
                                 <h3 class="text-uppercase font-weight-normal text-white m-0"
                                     style="letter-spacing: 2px;">저희 결혼합니다!!</h3>
                             </div>
-                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
+                            <!-- <button type="button" class="btn-play mx-auto" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                                 <span></span>
-                            </button>
+                            </button> -->
                         </div>
                     </div>
                 </div>
@@ -105,12 +110,44 @@
                 </div>
             </a>
         </div>
+
+        <div class="container py-5">
+            <div class="col-md-6 p-0 text-center text-md-right">
+                <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                    <h3 class="mb-3">이현우 | 이혜영</h3>
+                    <p>2023년 11월 19일 일요일 오후 1시 30분</p>
+                    <p>PJ호텔 뮤즈홀</p>
+                    <div class="position-relative">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container2">
+                <div class="well">
+                    <div class="counter" id="clockdiv">
+                        <h1 class="font-ko title" style="font-size:1.8rem; letter-spacing:-1px">현우 ♥ 혜영 결혼식 까지</h1>
+                        <div class="sq">
+                            <span class="days bord">0</span> <span class="smalltext">Days</span>
+                        </div>
+                        <div class="sq">
+                            <span class="hours bord">0</span> <span class="smalltext">Hours</span>
+                        </div>
+                        <div class="sq">
+                            <span class="minutes bord">0</span> <span class="smalltext">Mins</span>
+                        </div>
+                        <div class="sq">
+                            <span class="seconds bord">0</span> <span class="smalltext">Secs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Carousel End -->
 
 
     <!-- Video Modal Start -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <!-- <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -118,71 +155,64 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
+                     16:9 aspect ratio -->
+    <!-- <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
                             allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Video Modal End -->
 
 
-    <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
+    <!-- invitation Start -->
+    <div class="container-fluid py-5" id="invitation">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">About</h6>
-                <h1 class="font-secondary display-4">HyunWoo & Hyeyoung</h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Invitation</h6>
+                <h1 style="font-family: 'Noto Serif KR', serif; font-size:2.3rem; letter-spacing:-1px">소중한분들을 초대합니다</h1>
                 <i class="far fa-heart text-dark"></i>
             </div>
             <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
-                <div class="col-md-6 p-0 text-center text-md-right">
+                <div class="col-md-12 p-0 text-center">
                     <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
-                        <h3 class="mb-3">HyunWoo</h3>
-                        <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos
-                            tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet
-                            est dolor elitr.</p>
-                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i
-                                class="fa fa-male text-primary pr-3"></i>현우</h3>
-                        <div class="position-relative">
-                            <!-- <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-0" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/about-1.jpg" style="object-fit: cover;">
-                </div>
-            </div>
-            <div class="row m-0">
-                <div class="col-md-6 p-0" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/about-2.jpg" style="object-fit: cover;">
-                </div>
-                <div class="col-md-6 p-0 text-center text-md-left">
-                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
-                        <h3 class="mb-3">Hyeyoung</h3>
-                        <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos
-                            tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet
-                            est dolor elitr.</p>
-                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i
-                                class="fa fa-female text-primary pr-3"></i>혜영</h3>
-                        <div class="position-relative">
-                            <!-- <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a> -->
+                        <div class="col-md-12 text-center">
+                            <p class="font-ko" style="font-size:1.0em;">
+                                살랑이는 바람결에
+                                <br>
+                                사랑이 묻어나는 계절입니다.
+                                <br>
+                                여기 곱고 예쁜 두 사람이 사랑을 맺어
+                                <br>
+                                인생의 반려자가 되려 합니다.
+                                <br>
+                                새 인생을 시작하는 이 자리에 오셔서
+                                <br>
+                                축복해 주시면 감사하겠습니다.
+                            </p>
+                            <br>
+                            <img class="img-fluid ml-md-3" src="img/story-3.jpg" alt="">
+                            <br>
+                            <p class="font-ko" style="font-size:1.0rem;">
+                                <b style="font-size:1.3rem;">이지홍 · 김영선</b> 의 아들 <b style="font-size:1.3rem;">현우</b>
+                                <br>
+                                <b style="font-size:1.3rem;">이종록 · ㅋㅋㅋ</b> 의 딸 <b style="font-size:1.3rem;">혜영</b>
+                            </p>
+
+
+
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
+    <!-- invitation End -->
+
+
 
 
     <!-- Story Start -->
@@ -316,7 +346,7 @@
             <div class="row">
                 <div class="container">
                     <section class="section" id="section-3">
-                        <div id="map" style="width: 70%; height: 300px; margin:auto"></div>
+                        <div id="map" style="width: 90%; height: 300px; margin:auto"></div>
                         <code id="snippet" class="snippet"></code>
                     </section>
                 </div>
@@ -326,28 +356,29 @@
                 <script id="code">
                     var pj = new naver.maps.LatLng(37.56478529933627, 126.99572717248198)
                     var map = new naver.maps.Map('map', {
-                    center: new naver.maps.LatLng(37.565672810162354, 126.99664395128654),
-                    zoom: 17,
-                    minZoom: 8, //지도의 최소 줌 레벨
-                    zoomControl: true, //줌 컨트롤의 표시 여부
-                    zoomControlOptions: { //줌 컨트롤의 옵션
-                        position: naver.maps.Position.TOP_RIGHT
-                    }});
+                        center: new naver.maps.LatLng(37.565672810162354, 126.99664395128654),
+                        zoom: 17,
+                        minZoom: 8, //지도의 최소 줌 레벨
+                        zoomControl: true, //줌 컨트롤의 표시 여부
+                        zoomControlOptions: { //줌 컨트롤의 옵션
+                            position: naver.maps.Position.TOP_RIGHT
+                        }
+                    });
                     var marker = new naver.maps.Marker({
                         icon: {
-                        url: "./icon/heart-icon.png",
-                        scaledSize: new naver.maps.Size(30, 37),
-                        origin: new naver.maps.Point(0, 0),
+                            url: "./icon/heart-icon.png",
+                            scaledSize: new naver.maps.Size(30, 37),
+                            origin: new naver.maps.Point(0, 0),
                         },
                         position: pj,
                         map: map
                     });
 
                     var contentString = [
-                    '<div class="iw_inner" style="padding:5px; margin: 5px 0px 5px 0px; width: 150px; height: 45px; text-align: center; ">',
-                    '   <p style="foint-size: 2rem; margin: 0;">PJ호텔 웨딩홀</p>',
-                    '   <p style="font-size: 0.8rem; margin: 0;">서울 중구 마른내로 71</p>',
-                    '</div>'
+                        '<div class="iw_inner" style="padding:5px; margin: 5px 0px 5px 0px; width: 150px; height: 45px; text-align: center; ">',
+                        '   <p style="foint-size: 2rem; margin: 0;">PJ호텔 웨딩홀</p>',
+                        '   <p style="font-size: 0.8rem; margin: 0;">서울 중구 마른내로 71</p>',
+                        '</div>'
                     ].join('');
 
                     var infowindow = new naver.maps.InfoWindow({
@@ -364,7 +395,7 @@
                         pixelOffset: new naver.maps.Point(0, -5)
                     });
 
-                    naver.maps.Event.addListener(marker, "click", function(e) {
+                    naver.maps.Event.addListener(marker, "click", function (e) {
                         if (infowindow.getMap()) {
                             infowindow.close();
                         } else {
@@ -438,6 +469,47 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        function getTimeRemaining(endtime) {
+            var t = Date.parse(endtime) - Date.parse(new Date());
+            if (t < 0) { return false; }
+            var seconds = Math.floor((t / 1000) % 60);
+            var minutes = Math.floor((t / 1000 / 60) % 60);
+            var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+            var days = Math.floor(t / (1000 * 60 * 60 * 24));
+            return {
+                'total': t,
+                'days': days,
+                'hours': hours,
+                'minutes': minutes,
+                'seconds': seconds
+            };
+        }
+        function initializeClock(id, endtime) {
+            var clock = document.getElementById(id);
+            var daysSpan = clock.querySelector('.days');
+            var hoursSpan = clock.querySelector('.hours');
+            var minutesSpan = clock.querySelector('.minutes');
+            var secondsSpan = clock.querySelector('.seconds');
+            function updateClock() {
+                var t = getTimeRemaining(endtime);
+                if (t) {
+                    daysSpan.innerHTML = t.days;
+                    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+                } else {
+                    clearInterval(timeinterval);
+                }
+            }
+
+            updateClock();
+            var timeinterval = setInterval(updateClock, 1000);
+        }
+        var deadline = new Date('2023-11-19 13:30:00'); //today
+        // deadline.setDate(deadline.getDate() + 7);
+        initializeClock('clockdiv', deadline);
+    </script>
 </body>
 
 </html>
